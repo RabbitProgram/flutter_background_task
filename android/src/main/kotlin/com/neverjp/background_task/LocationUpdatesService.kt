@@ -87,7 +87,7 @@ class LocationUpdatesService: Service() {
         private const val EXTRA_STARTED_FROM_NOTIFICATION = "$PACKAGE_NAME.started_from_notification"
 
         private const val NOTIFICATION_ID = 373737
-        const val UPDATE_INTERVAL_IN_MILLISECONDS: Long = 1000
+        const val UPDATE_INTERVAL_IN_MILLISECONDS: Long = 10000
 
         private lateinit var broadcastReceiver: BroadcastReceiver
         private const val STOP_SERVICE = "stop_service"
